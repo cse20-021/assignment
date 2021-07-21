@@ -1,0 +1,123 @@
+ *{
+   margin:0;
+   padding: 0;
+   font-family: 'Cabin', sans-serif;
+   /*overflow-x: hidden;*/
+   
+ }
+ 
+
+ /*--Index--*/
+
+ .header{
+   background:rgba(0,0,0,0.7) url(Wallpaper-background-1.jpg);
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: darken;
+   height: 100vh;
+   width: 100%;
+ }
+
+ ul{
+   float: right;
+ }
+ ul li{
+   list-style: none;
+   display: inline-block;
+ }
+ ul li a{
+   text-decoration: none;
+   padding: 10px 20px 0 0;
+   color:#fff;
+   font-size: 20px;
+   font-family: 'Cabin', sans-serif;
+   transition: all 0.5s ease;
+ }
+ .logo{
+   padding-top: 30px;
+   margin-left: 5%;
+   font-family: 'Lobster', cursive; 
+   color: #fff;
+   font-size: 30px;
+   }
+ .header-text{
+   text-align: center;
+   padding-top: 240px;
+   color: #fff;
+ }
+ .header-text h1{
+   font-size: 50px;
+   font-weight: 400;
+   letter-spacing: 3px;
+   font-family: 'Satisfy', cursive;
+ }
+ .header-text p{
+   font-size: 25px;
+   font-family: 'Caveat', cursive;
+
+ }
+ ul li a:hover{
+   color: violet;
+ }
+ body{
+   width: 100%;
+ }
+
+/*--About--*/
+
+.header-2{
+  background:rgba(0,0,0,0.7) url(Wallpaper-background-1.jpg);
+   background-size: cover;
+   background-position: center;
+   background-blend-mode: darken;
+   height: 30vh;
+   width: 100%;
+   padding-top: 0;
+}
+.header-text-2{
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+}
+.header-text-2 h1{
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-family: 'Satisfy', cursive;
+}
+.h1 h1{
+  padding: 70px 0 50px 0;
+  font-size: 35px;
+  text-align: left;
+}
+
+.box{
+  text-align: center;
+}
+
+.box h1{
+  padding: 40px 0 30px 0;
+}
+
+.box p{
+  padding: 20px 0 30px 0;
+  font-size: 25px;
+}
+
+.pic-1 img{
+  padding-bottom: 20px;
+}
+
+ /*--Lifestyle--*/
+ 
+ .places{
+   width: 100%;
+ }
+ .places div{
+   width: 50%;
+ }
+
+ /*--Connect with us--*/
+ body{
+   background-color: rgb(218, 218, 218);
+ } 
